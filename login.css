@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.parent-div {
+    height: 1000;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.child-div {
+    margin-left: 2rem;
+    height: 300;
+    width: 350;
+    background-color: darkcyan;
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+h1 {
+    color:burlywood;
+    font-weight: bolder;
+    font-style: italic;
+    padding-left: 25%; 
+}
+
+input {
+    height: 2rem;
+    width: 85%;
+    background-color: blanchedalmond;
+    border: none;
+    color: black;
+    font-size: larger;
+}
+
+button {
+    height: 2rem;
+    width: 40%;
+    background-color: yellowgreen;
+    border: none;
+    font-size: medium;
+}
+
+span {
+    color: violet;
+    font-size: larger;
+}
+
+a {
+    color: yellow;
+    font-size: larger;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
+
+.item1 {
+    padding-left: 1.5rem;
+}
+.item {
+    padding-left: 1.5rem;
+}
+.item2 {
+    padding-left: 1.5rem;
+}
+.item3 {
+    padding-left: 1.5rem;
+}
+
